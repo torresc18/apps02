@@ -25,6 +25,12 @@ function draw() {
       
       text("Game Over",310,265);
 			textSize(900);
+      
+      
+      new audio('  https://api.soundcloud.com/tracks/356567972/download?secret_token=s-BD0uT&client_id=cUa40O3Jg3Emvp6Tv4U6ymYYO50NUGpJ').play()
+      
+    
+    
     }
 
 
@@ -188,3 +194,4 @@ function Pipe() {
 
 
 }
+
